@@ -1,0 +1,33 @@
+
+.navigationcss{
+    background-color: black;
+    height: 72px;
+    font-size: large;
+  display: flex;
+  align-items: center;
+ 
+  }
+  .bottonclick{
+    display: none;
+  }
+.link{
+margin-left: 40px;
+
+color: white;
+text-decoration: none;
+}
+@media (max-width:992px){
+  .navigationcss{
+   display: grid;
+   height: 200px;
+ 
+  }
+  .bottonclick{
+    display: block;
+    background-color: red;
+    padding: 10px 0;
+  }
+  .bottonclick span{
+    left: 0;
+  }
+}

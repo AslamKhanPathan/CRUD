@@ -1,0 +1,14 @@
+.main{
+ position: absolute;
+    background: 2px solid black;
+    background-color: #fff; 
+    height: 444px;
+    width: 444px;
+ margin: 112px 504px ; 
+justify-items: center;
+}
+@media (max-width:992px){
+   .main{
+      display: none;
+   }
+}

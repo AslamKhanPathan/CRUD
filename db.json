@@ -1,0 +1,204 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "reistration": [
+    {
+      "FirstName": "rehan",
+      "LastName": "mirza",
+      "UserName": "ajpkhan",
+      "CityName": "hingoli",
+      "StateName": "maha",
+      "ZipName": "1421",
+      "id": 1
+    },
+    {
+      "FirstName": "aslam",
+      "LastName": "mirza",
+      "UserName": "ajpkhan",
+      "CityName": "hingoli",
+      "StateName": "maha",
+      "ZipName": "1421",
+      "id": 2
+    },
+    {
+      "FirstName": "tanzeel",
+      "LastName": "pathan",
+      "UserName": "mirzaname",
+      "CityName": "chandrapur",
+      "StateName": "maha",
+      "ZipName": "252",
+      "id": 3
+    },
+    {
+      "FirstName": "tanzeel",
+      "LastName": "pathan",
+      "UserName": "mirzaname",
+      "CityName": "chandrapur",
+      "StateName": "maha",
+      "ZipName": "252",
+      "id": 4
+    },
+    {
+      "FirstName": "tanzeel",
+      "LastName": "pathan",
+      "UserName": "mirzaname",
+      "CityName": "chandrapur",
+      "StateName": "maha",
+      "ZipName": "252",
+      "id": 5
+    },
+    {
+      "FirstName": "aslamkhan",
+      "LastName": "pathan",
+      "UserName": "ajpkhan",
+      "CityName": "nungad",
+      "StateName": "bhagbesale",
+      "ZipName": "200",
+      "id": 6
+    },
+    {
+      "FirstName": "aslamkhan",
+      "LastName": "pathan",
+      "UserName": "ajpkhan",
+      "CityName": "nungad",
+      "StateName": "bhagbesale",
+      "ZipName": "540",
+      "id": 7
+    },
+    {
+      "FirstName": "google",
+      "LastName": "baba",
+      "UserName": "chal",
+      "CityName": "bhaga",
+      "StateName": "harami",
+      "ZipName": "00143",
+      "id": 8
+    },
+    {
+      "FirstName": "Mirza",
+      "LastName": "baba",
+      "UserName": "tanzeel",
+      "CityName": "nagpur",
+      "StateName": "maha",
+      "ZipName": "5555",
+      "id": 9
+    },
+    {
+      "FirstName": "Aslam",
+      "LastName": "Pathan",
+      "UserName": "ajpkhan",
+      "CityName": "Hingoli",
+      "StateName": "maharashtara",
+      "ZipName": "Aslam@777",
+      "id": 10
+    },
+    {
+      "FirstName": "shamshoddin",
+      "LastName": "khan",
+      "UserName": "shamshoddin",
+      "CityName": "nanded",
+      "StateName": "Maharashtra",
+      "ZipName": "shamshoddin",
+      "id": 11
+    },
+    {
+      "FirstName": "maksud",
+      "LastName": "khan",
+      "UserName": "maksud",
+      "CityName": "balapur",
+      "StateName": "maha",
+      "ZipName": "maksud@123",
+      "id": 12
+    },
+    {
+      "FirstName": "rehan",
+      "LastName": "Shaikh",
+      "UserName": "rehan",
+      "CityName": "Hingoli",
+      "StateName": "Maharashtra",
+      "ZipName": "rehan",
+      "id": 13
+    }
+  ],
+  "taskdata": [
+    {
+      "taskname": "reahan",
+      "discription": "done",
+      "start": "17:40",
+      "end": "18:35",
+      "date1": "2022-05-29",
+      "id": 2
+    },
+    {
+      "taskname": "zoology",
+      "discription": "funy",
+      "start": "23:48",
+      "end": "22:48",
+      "date1": "2022-06-23",
+      "id": 3
+    },
+    {
+      "taskname": "zoology",
+      "discription": "funy",
+      "start": "23:48",
+      "end": "22:48",
+      "date1": "2022-06-23",
+      "id": 4
+    },
+    {
+      "taskname": "zoology",
+      "discription": "funy",
+      "start": "23:48",
+      "end": "22:48",
+      "date1": "2022-06-23",
+      "id": 5
+    },
+    {
+      "taskname": "zoology",
+      "discription": "funy",
+      "start": "23:48",
+      "end": "22:48",
+      "date1": "2022-06-23",
+      "id": 6
+    },
+    {
+      "taskname": "zoology",
+      "discription": "funy",
+      "start": "23:48",
+      "end": "22:48",
+      "date1": "2022-06-23",
+      "id": 7
+    },
+    {
+      "taskname": "zoology",
+      "discription": "funy",
+      "start": "23:48",
+      "end": "22:48",
+      "date1": "2022-06-23",
+      "id": 8
+    },
+    {
+      "taskname": "zoology",
+      "discription": "funy",
+      "start": "23:48",
+      "end": "22:48",
+      "date1": "2022-06-23",
+      "id": 9
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
