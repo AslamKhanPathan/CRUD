@@ -47,7 +47,7 @@ export const Login = () => {
           />
         </Form.Group>
         <Form.Group className="mb-3" controlId="formBasicCheckbox"></Form.Group>
-        <Button variant="primary" type="submit" onClick={logindata}>
+        <Button id="butn" variant="primary" type="submit" onClick={logindata}>
           LOG-IN
         </Button>
       </Form>

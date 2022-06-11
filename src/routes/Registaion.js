@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { Form, Col, Row, InputGroup, Button } from "react-bootstrap";
+import {  Col, Row, InputGroup, Button } from "react-bootstrap";
+import Form from 'react-bootstrap/Form'
 import "../Project/allcssproject/registation.css";
 import axios from "axios";
 
@@ -18,19 +19,11 @@ export const Registation = () => {
     const datacopy = { ...data };
     datacopy[name] = value;
     setData(datacopy);
-    // console.log("copydata", datacopy);
+   
   };
 
   const registationPostdata = async () => {
-    // console.log(
-    //   "lenght",
-    //   data.FirstName.trim().length,
-    //   data.LastName.trim().length,
-    //   data.UserName.trim().length,
-    //   data.CityName.trim().length,
-    //   data.StateName.trim().length,
-    //   data.ZipName.length
-    // );
+  
     if (
       data.FirstName.trim().length == 0 ||
       data.LastName.trim().length == 0 ||

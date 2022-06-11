@@ -1,5 +1,4 @@
-
-.navigationcss{
+/* .navigationcss{
     background-color: black;
     height: 72px;
     font-size: large;
@@ -30,4 +29,16 @@ text-decoration: none;
   .bottonclick span{
     left: 0;
   }
+} */
+.nav-link-contain {
+
+  display: block;
+  padding: 0.5rem 1rem;
+
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+  color: whitesmoke;
+  margin: 5px;
+  font-size: larger;
 }

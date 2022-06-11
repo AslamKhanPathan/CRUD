@@ -114,6 +114,7 @@ export const About = () => {
           </tbody>
         ))}
       </Table>
+     
     </div>
   );
 };

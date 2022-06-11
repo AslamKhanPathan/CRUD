@@ -65,7 +65,8 @@ export const Contact = () => {
   }
 
   return (
-    <div>
+
+    <div >
       <input
         type="text"
         placeholder="taskname"
@@ -133,6 +134,9 @@ export const Contact = () => {
           ))}
         </tbody>
       </Table>
+
+
     </div>
+
   );
 };
