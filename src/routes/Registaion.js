@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import {  Col, Row, InputGroup, Button } from "react-bootstrap";
-import Form from 'react-bootstrap/Form'
+import { Col, Row, InputGroup, Button } from "react-bootstrap";
+import Form from "react-bootstrap/Form";
 import "../Project/allcssproject/registation.css";
 import axios from "axios";
 
@@ -19,11 +19,9 @@ export const Registation = () => {
     const datacopy = { ...data };
     datacopy[name] = value;
     setData(datacopy);
-   
   };
 
   const registationPostdata = async () => {
-  
     if (
       data.FirstName.trim().length == 0 ||
       data.LastName.trim().length == 0 ||
@@ -35,20 +33,17 @@ export const Registation = () => {
       alert("please fill the data");
       return;
     }
-    console.log("data",data)
+    console.log("data", data);
     try {
-     
       const response = await axios.post(
         "http://localhost:3000/reistration",
         data
-
       );
       // console.log("alldata",response)
-      if(response.status===201){
-        alert("data sucessfully sumited")
+      if (response.status === 201) {
+        alert("data sucessfully sumited");
       }
-    }
-     catch (e) {
+    } catch (e) {
       console.log("hyyu", e);
     }
   };
@@ -65,10 +60,9 @@ export const Registation = () => {
 
   return (
     <div className="regi">
-      <Form noValidate validated={validated} onSubmit={handleSubmit}> 
-      
+      <Form noValidate validated={validated} onSubmit={handleSubmit}>
         <Row className="mb-3">
-          <Form.Group as={Col} md="4" controlId="validationCustom01">
+          <Form.Group as={Col} md="6" controlId="validationCustom01">
             <Form.Label>First name</Form.Label>
             <Form.Control
               required
@@ -80,7 +74,7 @@ export const Registation = () => {
             />
             <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
           </Form.Group>
-          <Form.Group as={Col} md="4" controlId="validationCustom02">
+          <Form.Group as={Col} md="6" controlId="validationCustom02">
             <Form.Label>Last name</Form.Label>
             <Form.Control
               required
@@ -92,7 +86,7 @@ export const Registation = () => {
             />
             <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
           </Form.Group>
-          <Form.Group as={Col} md="4" controlId="validationCustomUsername">
+          <Form.Group as={Col} md="6" controlId="validationCustomUsername">
             <Form.Label>Username</Form.Label>
             <InputGroup hasValidation>
               <Form.Control
@@ -109,8 +103,7 @@ export const Registation = () => {
               </Form.Control.Feedback>
             </InputGroup>
           </Form.Group>
-        </Row>
-        <Row className="mb-3">
+
           <Form.Group as={Col} md="6" controlId="validationCustom03">
             <Form.Label>City</Form.Label>
             <Form.Control
@@ -125,7 +118,7 @@ export const Registation = () => {
               Please provide a valid city.
             </Form.Control.Feedback>
           </Form.Group>
-          <Form.Group as={Col} md="3" controlId="validationCustom04">
+          <Form.Group as={Col} md="6" controlId="validationCustom04">
             <Form.Label>State</Form.Label>
             <Form.Control
               type="text"
@@ -139,7 +132,7 @@ export const Registation = () => {
               Please provide a valid state.
             </Form.Control.Feedback>
           </Form.Group>
-          <Form.Group as={Col} md="3" controlId="validationCustom05">
+          <Form.Group as={Col} md="6" controlId="validationCustom05">
             <Form.Label>Create Password</Form.Label>
             <Form.Control
               type="password"
@@ -166,7 +159,6 @@ export const Registation = () => {
           Registration
         </Button>
       </Form>
-     
     </div>
   );
 };

@@ -6,27 +6,18 @@
     width: 444px;
  margin: 112px 504px ; 
 justify-items: center; */
-
-position: absolute;
-    background: 2px solid black;
-    background-color: rgb(177, 189, 161);
-    height:300px;
-    width: 600px;
-    margin: 102px 504px;
-    border: 10px;
-    justify-items: center;
+   width: 30%;
+   margin-left: auto;
+   margin-right: auto;
+   padding:40px;
     border-radius: 17px;
+    border:1px solid black;
+   margin-top: 20px;
+   background: cornflowerblue;
+   box-shadow: 2px 2px black;
 }
-#butn{
-   position: absolute;
-   position: absolute;
-    margin: 31px 0 0 243px;
-    justify-content: center;
-}
-.mb-6{
-   margin: 34px 37px -19px 28px;
-   justify-content: center;
-}
+
+
 @media (max-width:992px){
    .main{
       display: none;

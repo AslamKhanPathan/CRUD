@@ -1,6 +1,16 @@
 .regi{
- height: 300px;
- width: 600px;
- margin: 202px 400px;
-
+    width: 40%;
+padding:25px;
+margin-top: 20px;
+margin-left: auto;
+margin-right: auto;
+border:1px solid black;
+border-radius: 15px;
+background: cornflowerblue;
+    box-shadow: 2px 2px black;
+}
+@media(max-width:992px){
+    .regi{
+        width: 90%!important;
+    }
 }
